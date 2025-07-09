@@ -19,10 +19,11 @@ const Contact = () => {
           Connect With Me <span className="ml-1">🚀</span>
         </h3>
 
-        <div className="text-center text-white text-sm sm:text-base flex flex-col sm:flex-row sm:justify-center sm:gap-4">
-          <p className="break-all">📞 +91 8295957676</p>
-          <p className="break-all">✉️ tanishqbhatia474@gmail.com</p>
-        </div>
+        <div className="text-center text-white text-sm sm:text-base flex flex-col gap-1">
+  <p className="break-all">📞 +91 8295957676</p>
+  <p className="break-all">✉️ tanishqbhatia474@gmail.com</p>
+</div>
+
       </div>
     </section>
   );
