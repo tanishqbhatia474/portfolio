@@ -18,7 +18,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Tanishq Bhatia
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -26,8 +26,6 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
                 'Coder',
               ]}
               speed={100}
@@ -41,15 +39,12 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+          Hi, I'm Tanishq Bhatia — a pre-final year B.Tech student at DTU majoring in ECE with a CSE minor. I'm passionate about full-stack development and building scalable, user-centric web applications. With hands-on experience in the MERN stack, Next.js, and SQL, I've worked on impactful projects like a travel planner with AI integration and a full-fledged food delivery app. I’ve also interned at Avlinq and USIP-DTU, and thrive in team settings where innovation meets execution.
+          
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JflDPuHh4DR3jSI1zRSg62ixRd1qOzXw/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -74,8 +69,8 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={profileImage}
-              alt="Tarun Kaushik"
+              src="https://media.licdn.com/dms/image/v2/D5603AQFxY0CTYoM5PA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713200741496?e=1757548800&v=beta&t=q7RYFiWt2OxW78182PvetKK0FTfI1R2fHkIbZwjiD9k"
+              alt="Ta"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
