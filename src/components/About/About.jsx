@@ -59,21 +59,28 @@ const About = () => {
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
-          <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
-          >
-            <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQFxY0CTYoM5PA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713200741496?e=1757548800&v=beta&t=q7RYFiWt2OxW78182PvetKK0FTfI1R2fHkIbZwjiD9k"
-              alt="Ta"
-              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
-            />
-          </Tilt>
+        <Tilt
+  /* ⬇️ a hair larger than before */
+  className="w-52 h-52                 /* mobile 10 rem (160 px) */
+             sm:w-52 sm:h-52           /* ≥ 640 px → 13 rem (208 px) */
+             md:w-64 md:h-64           /* ≥ 768 px → 16 rem (256 px) */
+             border-4 border-purple-700
+             rounded-full overflow-hidden"   /* keeps it a perfect circle */
+  tiltMaxAngleX={20}
+  tiltMaxAngleY={20}
+  perspective={1000}
+  scale={1.05}
+  transitionSpeed={1000}
+  gyroscope
+>
+  <img
+    src="https://media.licdn.com/dms/image/v2/D5603AQFxY0CTYoM5PA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713200741496?e=1757548800&v=beta&t=q7RYFiWt2OxW78182PvetKK0FTfI1R2fHkIbZwjiD9k"
+    alt="Ta"
+    className="w-full h-full rounded-full object-cover
+               drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+  />
+</Tilt>
+
         </div>
       </div>
     </section>
